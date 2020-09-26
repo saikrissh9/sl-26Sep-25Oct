@@ -37,32 +37,32 @@ References:
 ## DevOps Buzzwords
 ## ########################
 
-- Agile / Scrum / Sprints
-- SCM/VCS
-- Continuous Integration
-- Continuous Delivery
-- Continuous Deployment
-- Configuration Management
-- Provisioning / Monitoring / Logging
-- Testing Automation
-- Orchestration / Management
-- Software development life cycle
-- Deployment Automation
-- Containerization
-- Microservices
-- DevOps on Cloud
-    Serverless / Lambda
-    Service Discovery
-    Infra-as-Code / IAC
-    Virtualization
-    DevSecOps
-    Cloud Native
-    Scalability
-    Resiliency
-    Reliability
-    High Availability
-    Fault Tolerance
-    Horizontal and Vertical Scaling
+        Agile / Scrum / Sprints
+        SCM/VCS
+        Continuous Integration
+        Continuous Delivery
+        Continuous Deployment
+        Configuration Management
+        Provisioning / Monitoring / Logging
+        Testing Automation
+        Orchestration / Management
+        Software development life cycle
+        Deployment Automation
+        Containerization
+        Microservices
+        DevOps on Cloud
+        Serverless / Lambda
+        Service Discovery
+        Infra-as-Code / IAC
+        Virtualization
+        DevSecOps
+        Cloud Native
+        Scalability
+        Resiliency
+        Reliability
+        High Availability
+        Fault Tolerance
+        Horizontal and Vertical Scaling
 
 
 ## ########################
