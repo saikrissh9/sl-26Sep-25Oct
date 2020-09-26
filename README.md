@@ -22,7 +22,7 @@
  
 **Weekend 5**
 
-    Module7: Monitoring
-    Module8: DevOps on Cloud
-    Course End Project
+    - Module7: Monitoring
+    - Module8: DevOps on Cloud
+    - Course End Project
 
