@@ -80,22 +80,21 @@ References:
 ## Persons / Blogs to Follow
 ## ########################
 
-## Persons
-- Martin Fowler
-- Gene Kim
-- Patrick Debois
-- Mark Hornbeek
-- Jez Humble
+# Persons
+    - Martin Fowler
+    - Gene Kim
+    - Patrick Debois
+    - Mark Hornbeek
+    - Jez Humble
 
-## Technology Blogs
-- AWS
-- Azure
-- GCP
-- Rackspace
-- Netflix
+# Technology Blogs
+    - AWS
+    - Azure
+    - GCP
+    - Rackspace
+    - Netflix
 
 ## Books
-
     The Age of Agile - Stephen Denning
     The Phoenix Project - Gene Kim
     The DevOps Handbook - Gene Kim
