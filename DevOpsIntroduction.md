@@ -1,5 +1,5 @@
 ## ########################
-## Course Outline/Agenda
+# Course Outline/Agenda
 ## ########################
 
     Weekend 1
@@ -23,7 +23,7 @@
     - Course End Project
 
 ## ########################
-References:
+# References:
 ## ########################
 
     https://linuxjourney.com/
@@ -34,7 +34,7 @@ References:
 
 
 ## ########################
-## DevOps Buzzwords
+# DevOps Buzzwords
 ## ########################
 
     Agile / Scrum / Sprints
@@ -66,7 +66,7 @@ References:
 
 
 ## ########################
-## DevOps Quotes and Keywords
+# DevOps Quotes and Keywords
 ## ########################
     It worked on my machine!
     You build it! You run it!
@@ -77,17 +77,17 @@ References:
     One-Click Deployment
 
 ## ########################
-## Persons / Blogs to Follow
+# Persons / Blogs to Follow
 ## ########################
 
-# Persons
+## Persons
     - Martin Fowler
     - Gene Kim
     - Patrick Debois
     - Mark Hornbeek
     - Jez Humble
 
-# Technology Blogs
+## Technology Blogs
     - AWS
     - Azure
     - GCP
@@ -105,7 +105,7 @@ References:
 
 
 ## ########################
-## DevOps Tool Chain
+# DevOps Tool Chain
 ## ########################
     - SCM/VCS - Git, SVN, Perforce, Accurev, CodeCommit, Azure TFS
     - CI/CD - Jenkins (Hudson), Teamcity, TravisCI, CircleCI, Bamboo
@@ -117,7 +117,7 @@ References:
 
 
 ## ########################
-## Assignments
+# Assignments
 ## ########################
 
     - Create account on any one Cloud (AWS/GCP/Azure/DigitalOcean)
