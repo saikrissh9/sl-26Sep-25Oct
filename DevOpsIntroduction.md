@@ -33,8 +33,6 @@ https://digital.ai/periodic-table-of-devops-tools
 https://devops.com/
 
 
-
-
 ## ########################
 ## DevOps Buzzwords
 ## ########################
@@ -48,8 +46,8 @@ Configuration Management
 Provisioning / Monitoring / Logging
 Testing Automation
 Orchestration / Management
-SDLC
-Deployment
+Software development life cycle
+Deployment Automation
 Containerization
 Microservices
 DevOps on Cloud
@@ -126,21 +124,3 @@ Engineering DevOps - Mark Hornbeek
 - Create account on any one Cloud (AWS/GCP/Azure/DigitalOcean)
 ** DigitalOcean referral Link: https://m.do.co/c/7a4461a50be1
 - Create an account on GitHub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
