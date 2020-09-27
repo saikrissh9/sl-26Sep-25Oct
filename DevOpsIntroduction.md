@@ -86,6 +86,7 @@
     - Patrick Debois
     - Mark Hornbeek
     - Jez Humble
+    - John Allspaw
 
 ## Technology Blogs
     - AWS
