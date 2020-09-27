@@ -39,6 +39,7 @@
 
     Agile / Scrum / Sprints
     SCM/VCS
+    GitOps
     Continuous Integration
     Continuous Delivery
     Continuous Deployment
@@ -63,6 +64,16 @@
     High Availability
     Fault Tolerance
     Horizontal and Vertical Scaling
+
+# Text Editors
+
+    Sublime
+    Atom
+    VSCode
+    Notepad ++
+    Eclipse
+    Pycharm
+    IntelliJ
 
 
 ## ########################
