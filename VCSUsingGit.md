@@ -2,6 +2,9 @@
 # SCM / VCS using Git
 ## ########################
 
+Written by Linus Torvalds
+
+
 References
 
 https://git-scm.com/
@@ -63,16 +66,30 @@ Why Git?
 
 ## Git Commands
 
+git config --global user.name <yourname>
+git config --global user.email <youremail>
+git config --list
+git init
 git add .
+git commit -m "commit message"
 git clone
 git status
 git push
 git pull
+git log
+git log --oneline
 
 
 
+git push origin master
+git push <remote> <branch>
+git push origin mybr
 
 
+
+Trees (Folders) and Blobs (files)
+
+ 
 Class Exercise
     
     Create a GitHub repository
@@ -86,6 +103,9 @@ Class Exercise
 
 
 
+
+Make changes to files -----> git commit (local save) ----> git push (pushing your local changes to remote 
+repo)
 
 
 
