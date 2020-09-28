@@ -2,35 +2,27 @@
 # SCM / VCS using Git
 ## ########################
 
-Written by Linus Torvalds
+## Written by <Linus Torvalds>
 
 
-References
+## Agenda
 
-https://git-scm.com/
-https://git-scm.com/book/en/v2
+    Introduction
+    Installation and configuration
+    Basic Git operations and commands
+    GitHub
+    Branching and Merging
+    Undoing changes in Git
 
 
-Introduction
-Installation and configuration
-Basic Git operations and commands
-GitHub
-Push / Pull
-
-System Restore
-VMware --> Snapshots
-
-Git Workflow
-
-Source Code Management / Version Control System
-
+## Source Code Management / Version Control System Softwares
     - Git
     - SVN
     - Accurev
     - Perforce
     - TFS
 
-Why VCS?
+## Why VCS?
     - Local and remote repos (Backup)
     - Versioning (Commit)
     - Distributed development (Branches)
@@ -39,7 +31,7 @@ Why VCS?
     - CI/CD and integration
     - Investigation and Auditing
 
-Types of VCS:
+## Types of VCS:
     - Centralized - SVN, CVS, Accurev
         - Connected to the Server
         - Slow because of the connectivity
@@ -48,49 +40,50 @@ Types of VCS:
         - Speed
         
 
-
-
-Git     ===> GitHub, BitBucket, GitLab,
-Linux   ===>  RedHat, Suse, Ubuntu
-
-
-Merge Conflicts
-
-
-git clone https://github.com/sk12k/sl-26Sep-25Oct.git
-
-
-Why Git?
-
+# Why Git?
+    - Distributed
+    - Fast
+    - Excellent with multiple Branch handling
+    - Very less administration overhead
 
 
 ## Git Commands
 
-git config --global user.name <yourname>
-git config --global user.email <youremail>
-git config --list
-git init
-git add .
-git commit -m "commit message"
-git clone
-git status
-git push
-git pull
-git log
-git log --oneline
+    git config --global user.name <yourname>
+    git config --global user.email <youremail>
+    git config --list
+    git init
+    git add . (Staging files)
+    git commit -m "commit message"
+    git clone
+    git status
+    git push
+    git pull
+    git log
+    git log --oneline
+    git branch
+    git branch <branchname>
+    git checkout <branchname>
+    git merge <branchname>
+    git merge <branch1> <branch2>
 
 
+## Pending:
+    merge conflict
+    revert changes in git
+    rebase
+    git amend
+    git remote
 
-git push origin master
-git push <remote> <branch>
-git push origin mybr
+
+    git push origin master
+    git push <remote> <branch>
+    git push origin mybr
 
 
-
-Trees (Folders) and Blobs (files)
-
+*Trees (Folders) and Blobs (files)*
  
-Class Exercise
+## Class Exercise
     
     Create a GitHub repository
     Add some sample files
@@ -100,19 +93,15 @@ Class Exercise
     Push changes to GitHub
     Verify the changes on GitHub
 
+Git Workflow:
+
+    Make changes to files -----> git commit (local save) ----> git push (pushing your local changes to remote repo)
 
 
+## References
 
-
-Make changes to files -----> git commit (local save) ----> git push (pushing your local changes to remote 
-repo)
-
-
-
-
-
-
-
-
+    https://git-scm.com/
+    https://git-scm.com/book/en/v2
+    https://www.atlassian.com/git/tutorials/using-branches
 
 
