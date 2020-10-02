@@ -103,6 +103,4 @@ Git Workflow:
     https://git-scm.com/
     https://git-scm.com/book/en/v2
     https://www.atlassian.com/git/tutorials/using-branches
-
-
-Adding this line to check rebase functionality
+    
