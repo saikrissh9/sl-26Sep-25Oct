@@ -11,3 +11,16 @@ sudo yum install -y jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
+
+
+
+# Jenkins installation on Ubnutu
+sudo su - root
+https://github.com/anujdevopslearn/InterviewQuestions/blob/master/InstallationGuides/Jenkins.txt
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+echo "deb https://pkg.jenkins.io/debian-stable binary/" > /etc/apt/sources.list.d/jenkins.list
+apt-get update
+apt install openjdk-8-jdk
+apt-get install jenkins
+Service status jenkins
+Ls -alrt /var/lib/jenkins/
