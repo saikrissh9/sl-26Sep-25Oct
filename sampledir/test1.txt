@@ -1,2 +1,2 @@
 testing amend
-adding this line for conflict
+changes done on GitHub
