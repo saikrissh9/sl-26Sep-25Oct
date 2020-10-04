@@ -12,6 +12,10 @@ Distributed builds --> have master worker node architecture
  - distrinute the load
  - Parallel execution
  - different OS / Platforms / Environments
+Pipelines --> (Pipeline-as-Code)
+Build triggers
+Upstream / Downstream projects
+
 
 
 java/.net
@@ -36,6 +40,7 @@ Piplelines
 
 Source Code ----> Build ---> Test ---> Deploy to Pre-Prod (Staging) ---> Deploy to Prod
 
+CI Job ---> UAT test job ---> deploy Job ---> 
 
 Java Build Tools
     - Ant       - build.xml
@@ -89,5 +94,8 @@ https://martinfowler.com/articles/continuousIntegration.html
 https://pkg.jenkins.io/debian-stable/
 https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
 https://www.jenkins.io/doc/book/installing/#debianubuntu
-
+https://www.howtoforge.com/tutorial/ubuntu-jenkins-master-slave/
+https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-1
+https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-2
+https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-3
 
