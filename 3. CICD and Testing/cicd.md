@@ -7,15 +7,73 @@ Concepts
 Jenkins Installation and Configuration
 Plugins
 Sample Job creation
-Paramerized builds
-Distributed builds
+Paramerized builds --> pass variables to your jobs at runtime.
+Distributed builds --> have master worker node architecture
+ - distrinute the load
+ - Parallel execution
+ - different OS / Platforms / Environments
+
+
+java/.net
+
+3 windows machines
+
+3 linux machines (forjava)
+
+jenkins master
+    - java slaves
+        -node1
+        -node2
+        -node3
+    -.netslaves
+        - node4
+        - node5
+        - node6
+
+
+
 Piplelines
+
+Source Code ----> Build ---> Test ---> Deploy to Pre-Prod (Staging) ---> Deploy to Prod
+
+
+Java Build Tools
+    - Ant       - build.xml
+    - Maven     - pom.xml
+    - Gradle    - build.xml
+
+dev --> test --> Staging --> prod
+
+DevOps  - Developers
+        - Testers / QA
+        - Sys Admin
+
+Jenkins Job
+Jenkins build
+
+
+
+
+
+
+
 
 
 
 
 CICD makes my Code bug free!
 
+
+AWS / Google / Azure
+
+Jenkins
+Ansible
+Puppet
+Chef
+Docker
+Kubernetes
+Nagios
+ELK Stack
 
 
 
