@@ -93,13 +93,13 @@ Azure
 
 
 References:
-https://www.thoughtworks.com/continuous-integration
-https://martinfowler.com/articles/continuousIntegration.html
-https://pkg.jenkins.io/debian-stable/
-https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
-https://www.jenkins.io/doc/book/installing/#debianubuntu
-https://www.howtoforge.com/tutorial/ubuntu-jenkins-master-slave/
-https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-1
-https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-2
-https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-3
+    https://www.thoughtworks.com/continuous-integration
+    https://martinfowler.com/articles/continuousIntegration.html
+    https://pkg.jenkins.io/debian-stable/
+    https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
+    https://www.jenkins.io/doc/book/installing/#debianubuntu
+    https://www.howtoforge.com/tutorial/ubuntu-jenkins-master-slave/
+    https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-1
+    https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-2
+    https://dev.to/pencillr/jenkins-pipelines-and-their-dirty-secrets-3
 
