@@ -4,7 +4,6 @@
 
 ## Written by <Linus Torvalds>
 
-
 ## Agenda
 
     Introduction
@@ -14,6 +13,7 @@
     Branching and Merging
     Undoing changes in Git
     Ignoring files in Git
+
 ## Source Code Management / Version Control System Softwares
     - Git
     - SVN
