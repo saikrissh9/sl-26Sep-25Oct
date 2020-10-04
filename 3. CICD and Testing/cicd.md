@@ -66,7 +66,7 @@ Jenkins build
 
 
 
-CICD makes my Code bug free!
+DevOps Certifications
 
 
 AWS / Google / Azure
