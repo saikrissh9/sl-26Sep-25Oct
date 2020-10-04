@@ -63,19 +63,19 @@ Jenkins build
 
 
 
-
+http://134.209.22.61:8080/job/sl-demojob/build?token=sl-web-token
 
 
 ## DevOps Certifications
 
-Jenkins
-Ansible
-Puppet
-Chef
-Docker
-Kubernetes
-Nagios
-ELK Stack
+    Jenkins Certified Engineer
+    Ansible
+    Puppet
+    Chef
+    Docker
+    Kubernetes
+    Nagios
+    ELK Stack
 
 ## Cloud Based DevOps Certifications
 
