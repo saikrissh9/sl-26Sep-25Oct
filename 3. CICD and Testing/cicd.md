@@ -66,10 +66,7 @@ Jenkins build
 
 
 
-DevOps Certifications
-
-
-AWS / Google / Azure
+## DevOps Certifications
 
 Jenkins
 Ansible
@@ -79,6 +76,13 @@ Docker
 Kubernetes
 Nagios
 ELK Stack
+
+## Cloud Based DevOps Certifications
+
+AWS Certified DevOps Engineer
+Google
+Azure
+
 
 
 
