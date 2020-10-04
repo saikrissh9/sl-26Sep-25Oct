@@ -71,9 +71,9 @@ http://134.209.22.61:8080/job/sl-demojob/build?token=sl-web-token
     Jenkins Certified Engineer
     Ansible
     Puppet
-    Chef
-    Docker
-    Kubernetes
+    Chef Badges
+    Docker Certified Associate
+    Kubernetes (CKA and CKAD)
     Nagios
     ELK Stack
 
