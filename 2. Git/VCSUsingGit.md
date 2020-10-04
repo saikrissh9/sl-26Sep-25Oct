@@ -13,8 +13,7 @@
     GitHub
     Branching and Merging
     Undoing changes in Git
-
-
+    Ignoring files in Git
 ## Source Code Management / Version Control System Softwares
     - Git
     - SVN
@@ -66,15 +65,14 @@
     git checkout <branchname>
     git merge <branchname>
     git merge <branch1> <branch2>
+    git rebase
+    git remote -v
+    git remote add <remotename> <remoteurl>
+    git commit --amend
+    git reset (alters git history)
+    git revert (does not alter, adds additional commit in git history)
 
-
-## Pending:
-    merge conflict
-    revert changes in git
-    rebase
-    git amend
-    git remote
-
+**git pull = git fetch + git merge**
 
     git push origin master
     git push <remote> <branch>
@@ -103,4 +101,6 @@ Git Workflow:
     https://git-scm.com/
     https://git-scm.com/book/en/v2
     https://www.atlassian.com/git/tutorials/using-branches
+    https://jwiegley.github.io/git-from-the-bottom-up/
+
     
