@@ -1,4 +1,7 @@
-# Jenkins installation **tested on CentOS 7**
+## #######################
+## Jenkins installation 
+## tested on CentOS 7
+## #######################
 #/bin/sh
 sudo yum install -y epel-release
 sudo yum update -y
@@ -13,14 +16,16 @@ sudo systemctl enable jenkins
 sudo systemctl status jenkins
 
 
-
-# Jenkins installation on Ubnutu
-sudo su - root
-https://github.com/anujdevopslearn/InterviewQuestions/blob/master/InstallationGuides/Jenkins.txt
+## #######################
+## Jenkins installation 
+## tested on Ubnutu 20.04
+## ####################### 
+#/bin/sh
+sudo -i
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 echo "deb https://pkg.jenkins.io/debian-stable binary/" > /etc/apt/sources.list.d/jenkins.list
 apt-get update
-apt install openjdk-8-jdk
-apt-get install jenkins
-Service status jenkins
-Ls -alrt /var/lib/jenkins/
+apt install -y openjdk-8-jdk
+java -version
+apt-get install -y jenkins
+systemctl status jenkins

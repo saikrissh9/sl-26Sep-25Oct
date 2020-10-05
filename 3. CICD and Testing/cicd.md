@@ -1,21 +1,21 @@
 
-Introduction
-Concepts
-    Continuous Integration
-    Continuous Delivery (deployable code)
-    Continuous Deployment (Automated deployment to Prod)
-Jenkins Installation and Configuration
-Plugins
-Sample Job creation
-Paramerized builds --> pass variables to your jobs at runtime.
-Distributed builds --> have master worker node architecture
- - distrinute the load
- - Parallel execution
- - different OS / Platforms / Environments
-Pipelines --> (Pipeline-as-Code)
-Build triggers
-Upstream / Downstream projects
-
+# Introduction
+    Concepts
+        - Continuous Integration
+        - Continuous Delivery (deployable code)
+        - Continuous Deployment (Automated deployment to Prod)
+    Jenkins Installation and Configuration
+    Plugins
+    Sample Job creation
+    Build triggers
+    Upstream / Downstream projects
+    Paramerized builds (Pass variables to your jobs at runtime)
+    Distributed builds ("Master/worker" or "Build Slave" architecture)
+        Why Distributed Builds?
+        - distrinute the load
+        - Parallel execution
+        - different OS / Platforms / Environments
+    Pipelines --> (Pipeline-as-Code)
 
 
 java/.net
@@ -56,17 +56,6 @@ DevOps  - Developers
 Jenkins Job
 Jenkins build
 
-
-
-
-
-
-
-
-http://134.209.22.61:8080/job/sl-demojob/build?token=sl-web-token
-
-
-## DevOps Certifications
 
     Jenkins Certified Engineer
     Ansible
