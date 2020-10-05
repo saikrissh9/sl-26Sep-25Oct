@@ -1,5 +1,7 @@
 
-# Introduction
+# CI CD using Jenkins
+
+    Introduction
     Concepts
         - Continuous Integration
         - Continuous Delivery (deployable code)
@@ -18,44 +20,21 @@
     Pipelines --> (Pipeline-as-Code)
 
 
-java/.net
-
-3 windows machines
-
-3 linux machines (forjava)
-
-jenkins master
-    - java slaves
-        -node1
-        -node2
-        -node3
-    -.netslaves
-        - node4
-        - node5
-        - node6
-
-
-
-Piplelines
 
 Source Code ----> Build ---> Test ---> Deploy to Pre-Prod (Staging) ---> Deploy to Prod
 
-CI Job ---> UAT test job ---> deploy Job ---> 
+CI Job ---> UAT test job ---> deploy Job ---> Notifications
 
-Java Build Tools
+dev --> test --> Staging --> prod
+
+## Java Build Tools
     - Ant       - build.xml
     - Maven     - pom.xml
     - Gradle    - build.xml
 
-dev --> test --> Staging --> prod
 
-DevOps  - Developers
-        - Testers / QA
-        - Sys Admin
 
-Jenkins Job
-Jenkins build
-
+## DevOps Certifications
 
     Jenkins Certified Engineer
     Ansible
@@ -68,20 +47,13 @@ Jenkins build
 
 ## Cloud Based DevOps Certifications
 
-AWS Certified DevOps Engineer
-Google
-Azure
+    AWS Certified DevOps Engineer
+    Google
+    Azure
 
 
 
-
-
-
-
-
-
-
-References:
+## References:
     https://www.thoughtworks.com/continuous-integration
     https://martinfowler.com/articles/continuousIntegration.html
     https://pkg.jenkins.io/debian-stable/
