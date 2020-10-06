@@ -33,7 +33,6 @@ dev --> test --> Staging --> prod
     - Gradle    - build.xml
 
 
-
 ## DevOps Certifications
 
     Jenkins Certified Engineer
@@ -47,7 +46,7 @@ dev --> test --> Staging --> prod
 
 ## Cloud Based DevOps Certifications
 
-    AWS Certified DevOps Engineer
+    [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
     Google
     Azure
 
