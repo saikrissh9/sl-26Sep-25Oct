@@ -1,6 +1,8 @@
 
 # CI CD using Jenkins
 
+**Topics Discussed**
+
     Introduction
     Concepts
         - Continuous Integration
@@ -21,11 +23,11 @@
 
 
 
-Source Code ----> Build ---> Test ---> Deploy to Pre-Prod (Staging) ---> Deploy to Prod
+> Source Code ----> Build ---> Test ---> Deploy to Pre-Prod (Staging) ---> Deploy to Prod
 
-CI Job ---> UAT test job ---> deploy Job ---> Notifications
+> CI Job ---> UAT test job ---> deploy Job ---> Notifications
 
-dev --> test --> Staging --> prod
+> dev --> test --> Staging --> prod
 
 ## Java Build Tools
     - Ant       - build.xml
