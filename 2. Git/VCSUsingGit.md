@@ -2,7 +2,7 @@
 # SCM / VCS using Git
 ## ########################
 
-## Written by <Linus Torvalds>
+## Written by *Linus Torvalds*
 
 ## Agenda
 
