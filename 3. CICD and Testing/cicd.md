@@ -47,8 +47,8 @@ dev --> test --> Staging --> prod
 ## Cloud Based DevOps Certifications
 
 [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
-    Google
-    Azure
+[Google Professional Cloud DevOps Engineer](https://cloud.google.com/certification/cloud-devops-engineer)
+[Microsoft Certified: DevOps Engineer Expert](https://docs.microsoft.com/en-us/learn/certifications/devops-engineer)
 
 
 
