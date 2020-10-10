@@ -79,11 +79,13 @@ node default {
 ## References:
 
   **Chef resources**
+
     https://learn.chef.io/
     https://api.chef.io/
     https://www.oreilly.com/library/view/chef-recipes/9781788396486/
 
   **All Resources**
+
     https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule
     https://www.howtoforge.com/tutorial/how-to-setup-puppet-master-and-agent-on-centos-7/
     https://www.puppetcookbook.com/
