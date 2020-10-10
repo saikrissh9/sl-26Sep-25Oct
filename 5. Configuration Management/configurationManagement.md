@@ -1,44 +1,45 @@
 
 ## Agenda
 
-What is Configuration Management?
-Discussion on Keywords
-Puppet installation and Configuration
-Puppet Module creation
-Ansible installatio and configuration
-Ansible adhoc commands and playbooks
+  What is Configuration Management?
+  Discussion on Keywords
+  Puppet installation and Configuration
+  Puppet Module creation
+  Ansible installatio and configuration
+  Ansible adhoc commands and playbooks
 
 
 ## Keyword
 
-Configuration Management
-Configuration Drift
-Idempotence
-DSL (Domain Specific Language)
-DSC (Desired state configuration)
-I-a-C (Infrastucture-as-Code)
-Tribal Knowledge
-Declarative vs Imperative
+  Configuration Management
+  Configuration Drift
+  Idempotence
+  DSL (Domain Specific Language)
+  DSC (Desired state configuration)
+  I-a-C (Infrastucture-as-Code)
+  Tribal Knowledge
+  Declarative vs Imperative
 
 
 ## Infrastucture-as-Code
-Terraform
-CloudFormation
-ARM
+
+  Terraform
+  CloudFormation
+  ARM
 
 ## CM Tools
-Ansible
-Puppet
-Chef
+
+  Ansible
+  Puppet
+  Chef
 
 ## ##########################
 ## Puppet Module Examples
 ## ##########################
 
-  ## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/init.pp
+## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/init.pp
 
   class accounts {
-
       $rootgroup = $osfamily ? {
           'Debian' => 'sudo',
           'RedHat' => 'wheel',
@@ -54,22 +55,21 @@ Chef
           gid     => 'sk12k',
           groups  => "$rootgroup",
       }
-
   }
 
 ## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/groups.pp
 
-class accounts::groups {
-  group { 'sk12k':
-    ensure => present,
+  class accounts::groups {
+    group { 'sk12k':
+      ensure => present,
+    }
   }
-}
 
 ## /etc/puppetlabs/code/environments/production/manifests/site.pp
 
-node default {
-  include accounts
-}
+  node default {
+    include accounts
+  }
 
 
 
