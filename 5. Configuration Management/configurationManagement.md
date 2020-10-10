@@ -1,4 +1,13 @@
 
+## Agenda
+
+What is Configuration Management?
+Discussion on Keywords
+Puppet installation and Configuration
+Puppet Module creation
+Ansible installatio and configuration
+Ansible adhoc commands and playbooks
+
 
 ## Keyword
 
@@ -12,7 +21,6 @@ Tribal Knowledge
 Declarative vs Imperative
 
 
-
 ## Infrastucture-as-Code
 Terraform
 CloudFormation
@@ -20,31 +28,48 @@ ARM
 
 ## CM Tools
 Ansible
-    - Easy to learn
-    - Easy to configure
-    - Based on YAML
-
 Puppet
 Chef
 
+## ##########################
+## Puppet Module Examples
+## ##########################
 
+## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/init.pp
 
-Puppet - Pull/push
-Chef  - Pull/push
-Ansible  - Push/pull
+class accounts {
 
-Chef Cookbooks
-Chef recipes
+    $rootgroup = $osfamily ? {
+        'Debian' => 'sudo',
+        'RedHat' => 'wheel',
+    }
 
-Puppet manifests
-modules
+    include accounts::groups
 
+    user { 'sk12k':
+        ensure  => present,
+        home    => '/home/username',
+        shell   => '/bin/bash',
+        managehome  => true,
+        gid     => 'sk12k',
+        groups  => "$rootgroup",
+    }
 
+}
 
-Packages
-Code files (.java/.py/.rb)
-Functions
+## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/groups.pp
 
+class accounts::groups {
+  group { 'sk12k':
+    ensure => present,
+  }
+}
+
+## /etc/puppetlabs/code/environments/production/manifests/site.pp
+
+node default {
+  include accounts
+}
 
 
 
@@ -52,4 +77,13 @@ Functions
 
 
 References:
+
+Chef resources:
+https://learn.chef.io/
+https://api.chef.io/
+https://www.oreilly.com/library/view/chef-recipes/9781788396486/
 https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule
+https://www.howtoforge.com/tutorial/how-to-setup-puppet-master-and-agent-on-centos-7/
+https://www.puppetcookbook.com/
+
+
