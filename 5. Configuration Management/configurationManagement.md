@@ -35,27 +35,27 @@ Chef
 ## Puppet Module Examples
 ## ##########################
 
-## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/init.pp
+  ## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/init.pp
 
-class accounts {
+  class accounts {
 
-    $rootgroup = $osfamily ? {
-        'Debian' => 'sudo',
-        'RedHat' => 'wheel',
-    }
+      $rootgroup = $osfamily ? {
+          'Debian' => 'sudo',
+          'RedHat' => 'wheel',
+      }
 
-    include accounts::groups
+      include accounts::groups
 
-    user { 'sk12k':
-        ensure  => present,
-        home    => '/home/username',
-        shell   => '/bin/bash',
-        managehome  => true,
-        gid     => 'sk12k',
-        groups  => "$rootgroup",
-    }
+      user { 'sk12k':
+          ensure  => present,
+          home    => '/home/username',
+          shell   => '/bin/bash',
+          managehome  => true,
+          gid     => 'sk12k',
+          groups  => "$rootgroup",
+      }
 
-}
+  }
 
 ## /etc/puppetlabs/code/environments/production/modules/accounts/manifests/groups.pp
 
