@@ -5,7 +5,7 @@
     Discussion on Keywords
     Puppet installation and Configuration
     Puppet Module creation
-    Ansible installatio and configuration
+    Ansible installation and configuration
     Ansible adhoc commands and playbooks
 
 
@@ -14,6 +14,7 @@
     Configuration Management
     Configuration Drift
     Idempotence
+    Out-of-Band Changes
     DSL (Domain Specific Language)
     DSC (Desired state configuration)
     I-a-C (Infrastucture-as-Code)
@@ -69,6 +70,27 @@
       include accounts
     }
 
+init.pp
+site.pp
+
+## Puppet sample Manifest
+
+class sl-automation {
+  package { 'tree':
+    ensure => 'installed',
+  }
+  file { '/tmp/sl-automation':
+    ensure => 'directory',
+  }
+  host { 'ubuntu-node':
+    ip           => '161.35.170.170',
+    host_aliases => 'ubuntu',
+  }
+  host { 'centos-node':
+    ip           => '161.35.170.56',
+    host_aliases => 'centos',
+  }
+}
 
 
 
