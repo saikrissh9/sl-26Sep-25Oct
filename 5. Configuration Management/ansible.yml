@@ -44,6 +44,14 @@ sudo apt-get install -y ansible
 ##Validation
 ansible --version
 
+Keywords
+
+AdHoc Commands
+Playbooks
+Plays
+Tasks
+
+
 =======================
 ansible.cfg => /etc/ansible/ansible.cfg
 =======================
@@ -125,3 +133,49 @@ deprecation_warnings = False
 =======================
 Playbooks
 =======================
+
+## ping Playbook 
+---
+- hosts: nodes
+  remote_user: ansible
+  become: yes
+  tasks:
+    - name: Ping all servers
+      action: ping
+
+
+## installation playbook
+---
+- hosts: nodes
+  become: yes
+  remote_user: ansible
+  tasks:
+    - name: install elinks
+      yum:
+        name: elinks
+        state: latest
+
+## Playbook for variable substitution
+---
+- hosts: '{{ myhosts }}'
+  become: yes
+  remote_user: ansible
+  tasks:
+    - name: install specified package
+      yum:
+        name: '{{ pkg }}'
+        state: latest
+
+
+=======================
+References
+=======================
+
+https://www.ansible.com/blog/topic/getting-started
+https://www.howtoforge.com/ansible-guide-ad-hoc-command/
+https://serversforhackers.com/c/an-ansible2-tutorial
+https://www.softwaretestinghelp.com/ansible-tutorial-1/
+https://www.ansible.com/blog/getting-started-writing-your-first-playbook
+https://opensource.com/article/19/9/must-know-ansible-modules
+https://medium.com/@tcij1013/ten-useful-ansible-modules-83fb6fb2d45e
+

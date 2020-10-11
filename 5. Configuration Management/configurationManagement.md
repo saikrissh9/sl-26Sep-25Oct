@@ -93,9 +93,6 @@ class sl-automation {
 }
 
 
-
-
-
 ## References:
 
   **Chef resources**
