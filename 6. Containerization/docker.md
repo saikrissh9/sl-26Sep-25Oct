@@ -11,6 +11,7 @@
     - Image lifecycle
     - Dockerfile
     - DockerHub
+
     - Networking
     - Volumes
     - Docker Compose
@@ -128,7 +129,6 @@ Docker
     docker tag <currentimagename> <newimagename>
 
 
-
 Management Commands:
   builder     Manage builds
   config      Manage Docker configs
@@ -205,6 +205,14 @@ docker build -t <imagename:tag> .
 
 
 
+
+
+Assignments:
+    1. Lab 6.4
+    2. Dockerized Jenkins instance:
+        Use the image from https://hub.docker.com/_/jenkins
+        create a container
+        take access of your Jenkins container from a browser window
 
 
 
