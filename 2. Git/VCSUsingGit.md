@@ -72,6 +72,7 @@
     git reset (alters git history)
     git revert (does not alter, adds additional commit in git history)
 
+
 **git pull = git fetch + git merge**
 
     git push origin master
