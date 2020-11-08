@@ -60,6 +60,8 @@
     git pull
     git log
     git log --oneline
+    git log --author
+    git shortlog -s -n
     git branch
     git branch <branchname>
     git checkout <branchname>
