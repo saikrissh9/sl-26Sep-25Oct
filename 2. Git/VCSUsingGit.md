@@ -54,7 +54,12 @@
     git init
     git add . (Staging files)
     git commit -m "commit message"
-    git clone
+    git clone URL
+    git config --global alias.br branch   //Commands shortcuts
+    git ls-files --stage  //list staged files
+    git diff file       //compare untracked and commited
+    git diff --staged file  //compare staged and commited
+    git diff commitid1(old) commitid2(new) //compare two commits
     git status
     git push
     git pull
