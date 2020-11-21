@@ -79,6 +79,20 @@
     git reset (alters git history)
     git revert (does not alter, adds additional commit in git history)
 
+**git stashing**
+
+    git stash   //To stash all the files – git stash
+    git stash list    //To show the list of files stashed – git stash list
+    git stash -- filename    //To stash a single file 
+    git stash show    //To show the latest stash or files stashed at 0th position –   
+    git stash show {1} or use git stash show <stash@{0}>.    //To show the stashed records at position 1 
+    Git stash save “message”    //To stash with a message
+    Git stash pop    //To get the files back to work
+    Git stash pop {1}    //To get back the stashed files at position 1
+    Git stash drop {1} / {stash-id}    //This will remove the files from the position 1 and it will also delete the change completely and u cannot undo this
+    Git stash clear    //Remove all the stashed files in one go
+
+
 
 **git pull = git fetch + git merge**
 
